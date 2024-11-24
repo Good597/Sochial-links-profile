@@ -1,0 +1,88 @@
+:root{
+
+    --Green : hsl(70, 94,57);
+   --white: hsl(0,0%, 100%);
+   --Grey: hsl(0, 0%, 20%);
+   --darkgrey: hsl(0, 0%, 12%);
+   --dffblack: hsl(0, 0%, 8%);
+
+
+
+}
+
+@font-face {
+    font-family: 'karam';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+
+}
+@font-face {
+    font-family: 'karam';
+    src: url(assets/fonts/OFL.txt)
+}
+
+@font-face {
+    font-family: 'karam';
+    src: url(assets/fonts/static/Inter-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'karam';
+    src: url(assets/fonts/static/Inter-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'karam';
+    src: url(assets/fonts/static/Inter-SemiBold.ttf)
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'karam';
+}
+body{
+width: 100%;
+min-height: 100vh;
+background-color: var(--dffblack);
+display: flex;
+justify-content: center;
+align-items: center;    
+
+}
+body .card{
+ width: 29%;   
+ background-color: var(--darkgrey) ;   
+ padding: 25px;
+border-radius: 20px;
+text-align: center;
+}
+ body .card .logo img{
+    width: 90px;
+    border-radius: 50%;
+}
+body .card .text :first-child{
+color: var(--white);
+margin: 10px 0px; 
+}
+body .card .text :nth-child(2){
+color: lawngreen;
+}
+body .card .text :nth-child(3){
+color: #e3e3e3;
+margin: 25px 0px;    
+}
+body .card .sochial a{
+display: block;
+text-decoration: none;
+color: var(--white);
+margin: 25px 0px;
+background-color: var(--Grey);
+padding: 15px;
+border-radius: 10px;
+transition: 0.5s;
+}
+body .card .sochial  a:hover{
+background-color:lawngreen;
+color:vertical;
+}
+
